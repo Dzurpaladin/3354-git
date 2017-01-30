@@ -1,0 +1,15 @@
+9
+a) My git status shows only 2 commit. On Github the numner of commits is equal to 5 from author for a total of 7 Total if they should be added
+
+b) The file .getignore was added 24th of January 
+
+c) The difference between get log and get status is that git log provides more information on what has occured including original author commits with the description of the reason for commit Additional git log provides a checksum. Git status gives an abbreviated version 
+
+d) The difference between untracked and unstaged are very simple. Untracked is seen by git but their changed are not tracked. Unstaged means the changes are tracked but not yet commited. 
+
+
+e) git Checkout will return the working directory of the state of a commi, It cannot be performe dif they are changed in the working directory the checksum is obtained via git log. git Reset resets the index to the stat of the commit without modifying working directory.
+
+
+f) Git prevents checkout if uncommited changes exist on the current branch/working directory
+
