@@ -6,8 +6,12 @@ public class Main {
         try {
             int result = addArguments(args);
             System.out.println(result);
-        } catch (Exception e) {
-            System.err.println("Please provide three integers to add");
+        } catch (ArrayIndexOutOfBoundsException e) {
+            System.err.println("Please provide only three integers");
+	}	
+	catch(IllegalArgumentException e){
+
+	    System.err.println("Please provide only numbers or the negative sign ");
         }
     }
 
